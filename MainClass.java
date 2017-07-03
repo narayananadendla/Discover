@@ -8,7 +8,7 @@ public class MainClass {
 		itr.setCount(10);
 		itr.setLineMapper(new DefaultLineMapper() {
 			{
-				//setLineTokenizer();
+				setLineTokenizer();
 			}
 
 		});
